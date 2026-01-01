@@ -20,24 +20,24 @@ const Header = () => {
           <div className="terminal-button minimize"></div>
           <div className="terminal-button maximize"></div>
         </div>
-        <div className="terminal-title">mritunjay@portfolio:~$</div>
+        <div className="terminal-title">garv@portfolio:~$</div>
       </div>
 
       <div className="terminal-content">
         {/* ASCII Art */}
         <div className="ascii-art">
           {`
-███╗   ███╗██████╗ ██╗████████╗██╗   ██╗███╗   ██╗     ██╗ █████╗ ██╗   ██╗
-████╗ ████║██╔══██╗██║╚══██╔══╝██║   ██║████╗  ██║     ██║██╔══██╗╚██╗ ██╔╝
-██╔████╔██║██████╔╝██║   ██║   ██║   ██║██╔██╗ ██║     ██║███████║ ╚████╔╝ 
-██║╚██╔╝██║██╔══██╗██║   ██║   ██║   ██║██║╚██╗██║██   ██║██╔══██║  ╚██╔╝  
-██║ ╚═╝ ██║██║  ██║██║   ██║   ╚██████╔╝██║ ╚████║╚█████╔╝██║  ██║   ██║   
-╚═╝     ╚═╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝ ╚════╝ ╚═╝  ╚═╝   ╚═╝   
+ ██████╗  █████╗ ██████╗ ██╗   ██╗
+██╔════╝ ██╔══██╗██╔══██╗██║   ██║
+██║  ███╗███████║██████╔╝██║   ██║
+██║   ██║██╔══██║██╔══██╗╚██╗ ██╔╝
+╚██████╔╝██║  ██║██║  ██║ ╚████╔╝
+ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝
 `}
         </div>
 
         <div className="command-line">
-          <span className="prompt">mritunjay@portfolio</span>
+          <span className="prompt">garv@portfolio</span>
           <span className="text-white">$</span>
           <span className="command"> whoami</span>
         </div>
@@ -62,7 +62,7 @@ const Header = () => {
         </div>
 
         <div className="command-line" style={{ marginTop: '1.5rem' }}>
-          <span className="prompt">mritunjay@portfolio</span>
+          <span className="prompt">garv@portfolio</span>
           <span className="text-white">$</span>
           <span className="command"> cat contact.json</span>
         </div>

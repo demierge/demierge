@@ -66,7 +66,7 @@ function App() {
 
           <div className="terminal-content">
             <div className="command-line">
-              <span className="prompt">mritunjay@portfolio</span>
+              <span className="prompt">garv@portfolio</span>
               <span className="text-white">$</span>
               <span className="command"> echo "Thanks for visiting!"</span>
             </div>
@@ -77,13 +77,13 @@ function App() {
             <div className="footer-links">
               <span className="text-gray">// Connect with me:</span>
               <div className="link-list">
-                <a href="https://github.com/electro-geek" target="_blank" rel="noreferrer">
+                <a href="https://github.com/demierge" target="_blank" rel="noreferrer">
                   <span className="text-cyan">$ </span>
-                  <span className="text-white">open github.com/electro-geek</span>
+                  <span className="text-white">open github.com/demierge</span>
                 </a>
-                <a href="https://linkedin.com/in/electro-geek" target="_blank" rel="noreferrer">
+                <a href="https://linkedin.com/in/garv-singh-1557ba321" target="_blank" rel="noreferrer">
                   <span className="text-cyan">$ </span>
-                  <span className="text-white">open linkedin.com/in/electro-geek</span>
+                  <span className="text-white">open linkedin.com/in/garv-singh-1557ba321</span>
                 </a>
               </div>
             </div>
@@ -93,7 +93,7 @@ function App() {
             </div>
 
             <div className="command-line" style={{ marginTop: '1rem' }}>
-              <span className="prompt">mritunjay@portfolio</span>
+              <span className="prompt">garv@portfolio</span>
               <span className="text-white">$</span>
               <span className="cursor"></span>
             </div>

@@ -5,7 +5,7 @@ const Loader = ({ onLoadComplete }) => {
     const [displayText, setDisplayText] = useState('');
     const [showCursor, setShowCursor] = useState(true);
     const [phase, setPhase] = useState('typing'); // typing, waiting, loading, fade
-    const fullName = 'Mritunjay Sharma';
+    const fullName = 'Garv Singh';
 
     useEffect(() => {
         let index = 0;
